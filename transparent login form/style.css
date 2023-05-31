@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size :cover;
+}
+.container{
+    width : 50%;
+color :rgba(248, 243, 243, 0.79);
+position:absolute;
+top: 25%;
+left: 40%;
+}
+.container h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: inline-block;
+    border-bottom: 4px solid purple;
+    font-size :34px;
+    margin-bottom: 48px;
+    padding: 12px 107px;
+}
+.box{
+    width : 50%;
+    padding: 14px 0px;
+    
+}
+.box input{
+    background: none;
+    /* margin: 2px 23px; */
+    width : 80%;
+    outline: none;
+    font-size :22px;
+}
+/* .btn btn-danger{
+    cursor: pointer;
+    outline: none;
+    width : 25%;
+    padding: 10 px;
+} */
+.box i{
+    padding: 0px 6px;
+    text-align: center;
+}
+button{
+    float: right;
+    margin: 6px 392px 0px 0px;
+}
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    /* font-size: 24px; */
+    font-weight: bold;
+}

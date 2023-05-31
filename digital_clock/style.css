@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+#myclockdisplay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size : 70px;
+    padding : 0px 5px;
+    border: 2px solid rgb(235, 139, 139);
+    color: white;
+    transform: translate(-50%, -50%); 
+    /* based on the screen size it  adjust*/
+
+}
