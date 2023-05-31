@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+  <title>contact us</title>
+  <style>
+    .paddingContact-container {
+      padding: 68px 15px 72px !important;
+      background-color: blueviolet;
+      color: white;
+    }
+
+    .container h1.white,
+    .company-heading h1 {
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 100 !important;
+      text-transform: capitalize;
+      font-size: 65px;
+      margin-bottom: 10px;
+    }
+
+    .control-group {
+      margin-bottom: 15px;
+    }
+
+    .form {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    .white {
+      color: whitesmoke;
+      text-align: center;
+    }
+
+    .container p {
+      font-style: normal !important;
+      color: #fff;
+      font-size: 20px;
+      letter-spacing: 0px;
+    }
+
+    .theme-selector {
+      display: none;
+    }
+
+    .contact-page-form h3 {
+      font-size: 26px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .parallax {
+      background-attachment: inherit !important;
+    }
+
+    .parallax {
+      background-attachment: inherit !important;
+      background-repeat: repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      width: 100%;
+      z-index: -10;
+      height: 300px
+    }
+
+    h3 {
+      font-size: 20px;
+      margin: 35px 0px 25px;
+      font-weight: 800;
+      color: #3d3d3d;
+      text-transform: uppercase;
+    }
+
+    .map-overlay h3 {
+      color: #fff;
+      border-bottom: 2px solid #d2282e;
+      padding-bottom: 15px;
+    }
+
+    .map-overlay {
+      background: #000;
+      -webkit-box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+      -moz-box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+      box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+      width: 500px;
+      height: 320px;
+      position: relative;
+      float: left;
+      z-index: 300;
+      left: 0px;
+      top: 675px;
+      padding: 25px;
+      margin-top: -550px;
+      border: 3px solid #fff;
+    }
+
+    .marginBottom40 {
+      margin-bottom: 40px;
+    }
+
+    .map-overlay p {
+      color: #fff;
+    }
+
+    .btn-primary {
+      width: 100%;
+    }
+
+    .contact-right-info {
+      margin-bottom: 25px;
+    }
+
+    @media only screen and (max-width: 991px) {
+      .contact-right-info {
+        text-align: center;
+      }
+    }
+
+    @media only screen and (min-width: 992px) {
+      .contact-right-info {
+        text-align: left;
+      }
+
+      .map-overlay {
+        left: 0px;
+      }
+    }
+
+    .pink {
+      font-family: 'Trade Winds', cursive;
+      text-align: center;
+      color: #d2282e;
+    }
+
+    h2 {
+      font-family: 'Trade Winds', cursive;
+      color: whitesmoke;
+    }
+
+    .aman {
+      text-align: center;
+    }
+
+    .red {
+      background-image: url(contact1.jpg);
+      background-size: 100vw 400px;
+      background-repeat: no-repeat;
+    }
+
+    .yellow {
+      text-align: center;
+      background-color: yellowgreen;
+      color: rgba(50, 50, 50, 0.75)
+    }
+
+    .yellow :hover {
+      background-color: slateblue;
+      color: antiquewhite;
+    }
+    :root {
+    --main-bg-color: #2fb48f;
+  }
+  header{
+    width: 90%;
+    height: 50px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Mate SC', serif;
+    opacity:0.9;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+nav{ height:50px;
+    display: flex;
+    align-items: center;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 4px;
+}
+nav ul div{ 
+    display: flex;
+    align-items: center;
+    padding: 0px 34px 0px 0px;
+}
+nav ul div img{
+    width:40px;
+    height: 40px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0px 20px 0px 0px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+    background-color: aqua;
+    opacity:0.8;
+}
+.search{
+      padding:0px 10px 0px 100px;
+}
+.search input{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0px 23px;
+    height: 21px;
+}
+
+  </style>
+</head>
+
+<body style="background-image: url(green_vegetable.jpg);">
+  <header>
+    <nav>
+      <ul>
+        <div>
+          <logo id="sevak">
+            <img src="favicon.ico" alt="sevak">
+        </div>
+        <li><a href="sevak1.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="help.html">help</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" name="search" id="search" placeholder="search product here">
+        <button class="btn">search</button>
+      </div>
+    </nav>
+  </header>
+  <div class="paddingContact-container">
+    <div class="row">
+      <div class="col-md-12">
+        <marquee behavior="scroll" direction="right" scrollamount="4">
+          <h1 class="white">Let's Get Started!</h1>
+        </marquee>
+        <p class="aman">Contact us today to discuss your next online project.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia dicta maiores, libero earum adipisci vel,
+          reprehenderit molestias maxime id doloremque quae obcaecati quia similique aperiam enim natus fugiat? Possimus
+          saepe quo voluptates laborum hic, vero facere officiis dicta consequuntur. Voluptatum neque dicta eos nihil
+          ab!</p>
+      </div>
+    </div>
+  </div>
+  <div class="parallax texture" id="parallax-cta"></div>
+  <!-- contact-form -->
+  <div class="container form">
+    <div class="row">
+      <div class="red">
+        <div class="row">
+          <div class="form-group col-md-12">
+            <h2 class="pink">Tell us About Yourself</h2>
+            <p style="color: #000">Contact us today to discuss your problems:</p>
+          </div>
+        </div>
+        <form name="contactForm" id="contactForm" method="POST" action="">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="control-group">
+                <label>First Name</label>
+                <input type="text" class="demo-default form-control" placeholder="First Name">
+              </div>
+              <div class="control-group">
+                <label>Last Name</label>
+                <input type="text" class="demo-default form-control" placeholder="Last Name">
+              </div>
+              <div class="control-group">
+                <label>Company</label>
+                <input type="text" class="demo-default form-control" placeholder="Company">
+              </div>
+              <div class="control-group">
+                <label>Phone #</label>
+                <input type="text" class="demo-default form-control" placeholder="Phone #">
+              </div>
+              <div class="control-group">
+                <label>Email</label>
+                <input type="text" class="demo-default form-control" placeholder="yourname@domain.com">
+              </div>
+              <div class="control-group">
+                <label for="select-beast">I'm Interested In:</label>
+                <select id="select-beast" class="demo-default" placeholder="Select a service...">
+                  <option value="">Select a service...</option>
+                  <option value="4">Digital Marketing</option>
+                  <option value="1">Social Media</option>
+                  <option value="3">E-Commerce</option>
+                  <option value="5">Mobile Advertising</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="yellow">
+              <input type="submit" class="btn btn-primary" value="SUBMIT">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-5 contact-right-info" style="background-color: violet;">
+        <h2>SEVAK OFFICE</h2>
+        <p style="color: #000000">123 Open Door Road Suite 1200<br />
+          SEVAK, FL 30030<br />
+          <a href="tel:4078981961">407.555.1961</a>
+        </p>
+        <h2>EMAIL ADDRESS</h2>
+        <a href="mailto:example@gmail.com">sevak@gmail.com</a>
+        <h2>SUPPORT</h2>
+        <a href="tel:8005551656">800.555.1656</a><br />
+        <a href="mailto:supportsevak@gmail.com">supportsevak@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

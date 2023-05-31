@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+    <title>about us</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button a{
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.about-section :hover{
+  background-color: rgb(83, 207, 245);
+  color: black;
+  opacity: 0.8;
+}
+h2{
+  font-family: 'Trade Winds', cursive;
+}
+:root {
+    --main-bg-color: #2fb48f;
+  }
+header{
+    width: 90%;
+    height: 50px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Mate SC', serif;
+    opacity:0.9;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+nav{ height:50px;
+    display: flex;
+    align-items: center;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 4px;
+}
+nav ul div{ 
+    display: flex;
+    align-items: center;
+    padding: 0px 34px 0px 0px;
+}
+nav ul div img{
+    width:40px;
+    height: 40px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0px 20px 0px 0px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+    background-color: aqua;
+    opacity:0.8;
+}
+.search{
+      padding:0px 10px 0px 100px;
+}
+.search input{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0px 23px;
+    height: 21px;
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+          <div>
+              <logo id="sevak">
+                  <img src="favicon.ico" alt="sevak">
+          </div>
+          <li><a href="sevak1.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="help.html">help</a></li>
+      </ul>
+      <div class="search">
+          <input type="text"name="search"id="search"placeholder="search product here">
+          <button class="btn">search</button>
+      </div>
+  </nav>
+  </header>
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis libero minima voluptatum soluta quisquam suscipit sit dolor nam enim optio quibusdam officia dignissimos fugit accusantium aspernatur amet incidunt, quasi, veritatis, omnis sequi deserunt obcaecati</p>
+        <p>the main aim of us is to create a wibesite which gives more strength and power to our farmers.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team Sevak</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="aman.jpg" alt="aman" style="width:100%">
+            <div class="container">
+              <h2>Aman Tiwari</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>aman@example.com</p>
+              <p><button class="button"><a href="mailto:amantiwari0505@gmail.com">Contact</a></button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="rohit.jpg" alt="rohit" style="width:100%">
+            <div class="container">
+              <h2>Rohit kumar</h2>
+              <p class="title">Art Director & Co-founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>rohit@example.com</p>
+              <p><button class="button"> <a href="">Contact</a></button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="akash.jpg" alt="akash" style="width:100%">
+            <div class="container">
+              <h2>Akash kumar</h2>
+              <p class="title">Designer & Co-founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>akash@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>    
+</body>
+</html>
